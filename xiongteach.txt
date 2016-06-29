@@ -1,0 +1,55 @@
+ssh-keygen -t rsa -C "youremail@example.com" 
+并在网站进行绑定
+生成路径-->C:\Users\Administrator\.ssh
+
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+git config --global color.ui true
+
+新建目录
+mkdir 目录名
+
+git init 初始化一个本地仓库
+
+
+
+git remote add origin <URL地址> 
+本地库与远征库关联
+
+//git remote rm origin <URL地址> 移除本地库与远征库关联
+
+创建一个文件
+对内容进行修改
+git add 文件名
+
+git status
+
+git commit -m "aowu"
+
+git push -u origin master 关联后，使用命令第一次推送master分支的所有内容
+
+
+//git pull 把服务器端的更新到本地
+
+   
+
+
+//git clone :myoule/test.git出错了用克隆  国内要克隆git覆盖前面的git
+
+
+
+
+分支
+
+git branck div
+
+git branck
+
+git checkout div
+
+git checkout 主干
+
+git merge div
+
+
+git pull origin master 远程有修改要同步
